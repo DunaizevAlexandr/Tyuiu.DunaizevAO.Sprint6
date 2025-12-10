@@ -48,10 +48,15 @@ namespace Tyuiu.DunaizevAO.Sprint6.Task1.V7
         }
         private void buttonHelp_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Таск 1 выполнил студент группы ИСТНб-24-1 Шиндин Денис Николаевич", "Сообщение");
+            MessageBox.Show("Таск 1 выполнил студент группы РППБ25-1 Дунайцев Александр Олегович", "Сообщение");
         }
 
         private void textBoxStopStep_DAO_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonHelp_DAO_Click(object sender, EventArgs e)
         {
 
         }

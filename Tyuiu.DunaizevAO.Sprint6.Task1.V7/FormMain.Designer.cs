@@ -157,6 +157,7 @@
             buttonHelp_DAO.TabIndex = 3;
             buttonHelp_DAO.Text = "Справка";
             buttonHelp_DAO.UseVisualStyleBackColor = false;
+            buttonHelp_DAO.Click += buttonHelp_DAO_Click;
             // 
             // ButtonDone_DAO
             // 
