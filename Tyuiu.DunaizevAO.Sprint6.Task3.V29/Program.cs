@@ -1,4 +1,4 @@
-namespace Tyuiu.DunaizevAO.Sprint6.Task2.V15
+namespace Tyuiu.DunaizevAO.Sprint6.Task3.V29
 {
     internal static class Program
     {
