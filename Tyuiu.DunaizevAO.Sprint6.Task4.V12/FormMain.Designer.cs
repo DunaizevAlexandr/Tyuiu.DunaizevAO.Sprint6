@@ -119,6 +119,7 @@
             chartResult_DAO.Size = new Size(821, 394);
             chartResult_DAO.TabIndex = 2;
             chartResult_DAO.Text = "chart1";
+            chartResult_DAO.Click += chartResult_DAO_Click;
             // 
             // groupBoxInput_DAO
             // 

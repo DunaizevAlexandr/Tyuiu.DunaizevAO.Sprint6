@@ -67,5 +67,10 @@ namespace Tyuiu.DunaizevAO.Sprint6.Task4.V12
                 MessageBox.Show("—бой при сохранении файла", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void chartResult_DAO_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
