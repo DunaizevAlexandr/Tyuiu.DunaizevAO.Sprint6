@@ -146,22 +146,26 @@
             // 
             // buttonSave_DAO
             // 
+            buttonSave_DAO.Enabled = false;
             buttonSave_DAO.Image = (Image)resources.GetObject("buttonSave_DAO.Image");
             buttonSave_DAO.Location = new Point(184, 12);
             buttonSave_DAO.Name = "buttonSave_DAO";
             buttonSave_DAO.Size = new Size(80, 50);
             buttonSave_DAO.TabIndex = 6;
+            toolTipButton_DAO.SetToolTip(buttonSave_DAO, "Сохранить обработанные данные в файл в формате CSV\r\n");
             buttonSave_DAO.UseVisualStyleBackColor = true;
             buttonSave_DAO.Click += buttonSaveFile_Click;
             buttonSave_DAO.MouseEnter += buttonSaveFile_MouseEnter;
             // 
             // buttonDone_DAO
             // 
+            buttonDone_DAO.Enabled = false;
             buttonDone_DAO.Image = (Image)resources.GetObject("buttonDone_DAO.Image");
             buttonDone_DAO.Location = new Point(98, 13);
             buttonDone_DAO.Name = "buttonDone_DAO";
             buttonDone_DAO.Size = new Size(80, 50);
             buttonDone_DAO.TabIndex = 5;
+            toolTipButton_DAO.SetToolTip(buttonDone_DAO, "Выполнить обработку данных");
             buttonDone_DAO.UseVisualStyleBackColor = true;
             buttonDone_DAO.Click += buttonDone_Click;
             buttonDone_DAO.MouseEnter += buttonDone_MouseEnter;
@@ -173,6 +177,7 @@
             buttonFileOpen_DAO.Name = "buttonFileOpen_DAO";
             buttonFileOpen_DAO.Size = new Size(80, 50);
             buttonFileOpen_DAO.TabIndex = 4;
+            toolTipButton_DAO.SetToolTip(buttonFileOpen_DAO, "Открыть файл для обработки данных в формате CSV");
             buttonFileOpen_DAO.UseVisualStyleBackColor = true;
             buttonFileOpen_DAO.Click += buttonOpenFile_Click;
             buttonFileOpen_DAO.MouseEnter += buttonOpenFile_MouseEnter;
@@ -184,6 +189,7 @@
             buttonInfo_DAO.Name = "buttonInfo_DAO";
             buttonInfo_DAO.Size = new Size(80, 50);
             buttonInfo_DAO.TabIndex = 3;
+            toolTipButton_DAO.SetToolTip(buttonInfo_DAO, "Сведение о программе");
             buttonInfo_DAO.UseVisualStyleBackColor = true;
             buttonInfo_DAO.Click += buttonHelp_Click;
             buttonInfo_DAO.MouseEnter += buttonHelp_MouseEnter;
