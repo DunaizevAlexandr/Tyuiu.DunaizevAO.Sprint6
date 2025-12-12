@@ -90,7 +90,7 @@ namespace Tyuiu.DunaizevAO.Sprint6.Task6.V26
             panelInPut_DAO.Name = "panelInPut_DAO";
             panelInPut_DAO.Size = new Size(1031, 401);
             panelInPut_DAO.TabIndex = 1;
-            panelInPut_DAO.Paint += panelInPut_ZEO_Paint;
+            panelInPut_DAO.Paint += panelInPut_DAO_Paint;
             // 
             // groupBoxInPut_DAO
             // 
@@ -140,7 +140,7 @@ namespace Tyuiu.DunaizevAO.Sprint6.Task6.V26
             buttonHelp_DAO.TabIndex = 0;
             toolTip_DAO.SetToolTip(buttonHelp_DAO, "Сведения о программе");
             buttonHelp_DAO.UseVisualStyleBackColor = true;
-            buttonHelp_DAO.Click += buttonHelp_ZEO_Click;
+            buttonHelp_DAO.Click += buttonHelp_DAO_Click;
             // 
             // buttonDoIt_DAO
             // 
@@ -152,7 +152,7 @@ namespace Tyuiu.DunaizevAO.Sprint6.Task6.V26
             buttonDoIt_DAO.TabIndex = 0;
             toolTip_DAO.SetToolTip(buttonDoIt_DAO, "Производит поиск и возвращает последнее слово в строке");
             buttonDoIt_DAO.UseVisualStyleBackColor = true;
-            buttonDoIt_DAO.Click += buttonDoIt_ZEO_Click;
+            buttonDoIt_DAO.Click += buttonDoIt_DAO_Click;
             // 
             // buttonOpen_DAO
             // 
@@ -164,7 +164,7 @@ namespace Tyuiu.DunaizevAO.Sprint6.Task6.V26
             buttonOpen_DAO.TabIndex = 0;
             toolTip_DAO.SetToolTip(buttonOpen_DAO, "Открыть файл\r\nВыберите нужный файл для обработки");
             buttonOpen_DAO.UseVisualStyleBackColor = true;
-            buttonOpen_DAO.Click += buttonOpen_ZEO_Click;
+            buttonOpen_DAO.Click += buttonOpen_DAO_Click;
             // 
             // panelOutPut_DAO
             // 
